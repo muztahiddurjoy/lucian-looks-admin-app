@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Top Carousel" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="CTA Section" />
+        <item
+            android:id="@+id/nav_partner"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:title="Partners"/>
+        <item
+            android:id="@+id/nav_pay_req"
+            android:icon="@drawable/ic_baseline_monetization_on_24"
+            android:title="Payment Request"/>
+        <item
+            android:id="@+id/pro_reports"
+            android:icon="@drawable/ic_baseline_block_24"
+            android:title="Product Reports"/>
+        <item
+            android:id="@+id/service_reports"
+            android:icon="@drawable/ic_baseline_block_24"
+            android:title="Service Reports"/>
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_baseline_check_box_24"
+            android:title="Products"/>
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_baseline_check_box_24"
+            android:title="Services"/>
+        <item
+            android:id="@+id/nav_testimonial"
+            android:icon="@drawable/ic_baseline_format_quote_24"
+            android:title="Testimonials"/>
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_baseline_send_24"
+            android:title="Contact"/>
+        <item
+            android:id="@+id/nav_price"
+            android:icon="@drawable/ic_baseline_monetization_on_24"
+            android:title="Plans Price"/>
+    </group>
+</menu>

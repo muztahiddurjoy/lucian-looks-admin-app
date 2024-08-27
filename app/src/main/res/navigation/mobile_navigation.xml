@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.ui.gallery.GalleryFragment"
+        android:label="Top Carousel"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.ui.slideshow.SlideshowFragment"
+        android:label="CTA Section"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.Contact"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact"/>
+    <fragment
+        android:id="@+id/nav_price"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.PlansPrice"
+        android:label="Plans Price"
+        tools:layout="@layout/fragment_plans_price"/>
+    <fragment
+        android:id="@+id/nav_partner"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.PartnerFragment"
+        android:label="Partners"
+        tools:layout="@layout/fragment_partner"/>
+    <fragment
+        android:id="@+id/nav_pay_req"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.PayRequest"
+        android:label="Payment Request"
+        tools:layout="@layout/fragment_pay_request"/>
+    <fragment
+        android:id="@+id/nav_products"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.ProductFargment"
+        android:label="Products"
+        tools:layout="@layout/fragment_product_fargment"/>
+    <fragment
+        android:id="@+id/nav_testimonial"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.TestimonialFragment"
+        android:label="Testimonials"
+        tools:layout="@layout/fragment_testimonial"/>
+    <fragment
+        android:id="@+id/pro_reports"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.ProductReportFragment"
+        android:label="Product Reports"
+        tools:layout="@layout/fragment_product_report"/>
+    <fragment
+        android:id="@+id/service_reports"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.ServiceReportFragment"
+        android:label="Service Reports"
+        tools:layout="@layout/fragment_service_report"/>
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.epizy.muztahiddurjoy.lucianlooksadminapp.ServicesFragment"
+        android:label="Services"
+        tools:layout="@layout/fragment_services"/>
+</navigation>
